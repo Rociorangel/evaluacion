@@ -93,8 +93,8 @@ class Ui_MainWindow(object):
             self.model.setHeaderData(0, QtCore.Qt.Horizontal, "ID")
             self.model.setHeaderData(1, QtCore.Qt.Horizontal, "Cantidad")
             self.model.setHeaderData(2, QtCore.Qt.Horizontal, "Precio")
-            self.model.setHeaderData(2, QtCore.Qt.Horizontal, "num_producto")
-            self.model.setHeaderData(2, QtCore.Qt.Horizontal, "num_factura")
+            self.model.setHeaderData(3, QtCore.Qt.Horizontal, "num_producto")
+            self.model.setHeaderData(4, QtCore.Qt.Horizontal, "num_factura")
         
     def print_data(self):
             sqlite_file='mydb.db'
